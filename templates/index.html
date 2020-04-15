@@ -1,0 +1,13 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+	<meta charset="UTF-8"> 
+	<title>Hotel_image</title> 
+</head> 
+<body> 
+
+    {% for i in pic %}
+                <img src="{{media_url}}{{ i.image }}">
+{% endfor %}
+</body> 
+</html> 
